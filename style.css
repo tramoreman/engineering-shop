@@ -164,3 +164,23 @@ background: url(images/60.jpg) no-repeat center center;
 .h4, h4 {
     font-size: 1.5rem;
 }
+
+/* unvisited link */
+a:link {
+  color: black;
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+
+
+/* selected link */
+a:active {
+  color: red;
+  text-decoration: none;
+}
